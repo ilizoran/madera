@@ -1,0 +1,22 @@
+.container{
+	margin: 0 auto;
+    padding-top: 40px;
+    width: 1040px;
+	background: white;
+	
+}
+.clear:after{
+	content:'';    
+	clear:both;
+	display: block;
+}
+
+.margin-l{
+	margin-left:50px;
+	margin-top: 9px;
+}
+	
+@import "header";
+@import "body"; 
+
+@import "footer";

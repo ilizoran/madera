@@ -1,0 +1,333 @@
+.container {
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 1040px;
+  background: white; }
+
+.clear:after {
+  content: '';
+  clear: both;
+  display: block; }
+
+.margin-l {
+  margin-left: 50px;
+  margin-top: 9px; }
+
+html {
+  margin: 0; }
+
+body {
+  margin: 0;
+  background: url(../images/background.png) repeat; }
+
+.h-background {
+  background: url(../images/ove-tri-slike-za-slajder.png) no-repeat;
+  width: 100%;
+  padding: 0px;
+  position: absolute;
+  z-index: 0;
+  height: 538px;
+  overflow: hidden; }
+
+header {
+  margin: 0;
+  float: left;
+  position: relative; }
+  header .pre-logo {
+    width: 100%;
+    height: 143px;
+    position: relative;
+    background: url(../images/Rectangle-1.png);
+    z-index: 1; }
+  header .logo {
+    width: 100%;
+    margin-left: -37.5%;
+    margin-top: 3.5%;
+    text-align: center;
+    float: left;
+    position: relative; }
+  header .header-nav {
+    opacity: 0.5;
+    /*----- Menu Outline -----*/
+    /*----- Top Level -----*/
+    /*----- Bottom Level -----*/ }
+    header .header-nav body {
+      background: #bf5c71 url("body-bg.jpg"); }
+    header .header-nav .clearfix:after {
+      display: block;
+      clear: both; }
+    header .header-nav .menu-wrap {
+      width: 100%;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+      background: #3e3436; }
+    header .header-nav .menu {
+      width: 1000px;
+      margin: 0px auto; }
+      header .header-nav .menu li {
+        margin: 0px;
+        list-style: none;
+        font-family: 'Ek Mukta'; }
+      header .header-nav .menu a {
+        -webkit-transition: all linear 0.15s;
+                transition: all linear 0.15s;
+        color: #919191; }
+      header .header-nav .menu li:hover > a, header .header-nav .menu .current-item > a {
+        text-decoration: none;
+        color: #be5b70; }
+      header .header-nav .menu .arrow {
+        font-size: 11px;
+        line-height: 0%; }
+      header .header-nav .menu > ul > li {
+        float: left;
+        display: inline-block;
+        position: relative;
+        font-size: 19px; }
+        header .header-nav .menu > ul > li > a {
+          padding: 10px 40px;
+          display: inline-block;
+          text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4); }
+        header .header-nav .menu > ul > li:hover > a {
+          background: #2e2728; }
+      header .header-nav .menu > ul > .current-item > a {
+        background: #2e2728; }
+      header .header-nav .menu li:hover .sub-menu {
+        z-index: 1;
+        opacity: 1; }
+    header .header-nav .sub-menu {
+      width: 160%;
+      padding: 5px 0px;
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      z-index: -1;
+      opacity: 0;
+      -webkit-transition: opacity linear 0.15s;
+              transition: opacity linear 0.15s;
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+      background: #2e2728; }
+      header .header-nav .sub-menu li {
+        display: block;
+        font-size: 16px; }
+        header .header-nav .sub-menu li a {
+          padding: 10px 30px;
+          display: block; }
+          header .header-nav .sub-menu li a:hover {
+            background: #3e3436; }
+      header .header-nav .sub-menu .current-item a {
+        background: #3e3436; }
+  header .header-text-left {
+    float: left;
+    position: relative;
+    margin-top: 92px;
+    width: 78%;
+    color: #fda032; }
+    header .header-text-left h1 {
+      margin-left: 5px;
+      font-size: 49px;
+      line-height: 49px;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase; }
+  header .header-picture-right {
+    float: right;
+    position: relative;
+    margin-top: 120px;
+    padding-right: 157px; }
+  header .header-picture {
+    overflow: hidden;
+    height: 260px;
+    margin-top: -40px;
+    margin-left: -22px; }
+
+body {
+  /*-------------------------------------------------------------------------*/
+  /*Start 'index.php'*/
+  /*--------------------------------------------------------*/
+  /*End of 'index.php'*/
+  /*---------------------------------------------------------*/
+  /*Start of 'poliuretanski-sistemi.php'*/ }
+  body .body-title {
+    width: 100%; }
+  body h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #14306e;
+    font-size: 62px;
+    text-transform: uppercase; }
+  body h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #33467a;
+    font-size: 35px;
+    text-transform: uppercase; }
+  body h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 28px;
+    text-transform: uppercase; }
+  body .body-title-r {
+    width: 65%;
+    float: left;
+    margin-left: 33%;
+    margin-top: 55px;
+    text-transform: uppercase; }
+    body .body-title-r h2 {
+      margin-bottom: -16px; }
+    body .body-title-r h3 {
+      margin-bottom: 17px; }
+  body .body-middle {
+    padding-bottom: 33px; }
+  body .body-left {
+    float: left;
+    width: 28.5%; }
+    body .body-left ul {
+      padding: 0px; }
+      body .body-left ul li {
+        list-style-type: none;
+        margin-bottom: 40px; }
+  body .body-right {
+    float: left;
+    width: 64%; }
+    body .body-right p {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      margin-bottom: 33px;
+      line-height: 25px; }
+    body .body-right a {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      font-style: italic;
+      color: #0083eb;
+      text-decoration: none; }
+  body .body-button {
+    margin-left: 89%;
+    margin-right: 5%;
+    float: right;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background: #ff9520;
+    margin-top: -149px;
+    text-transform: uppercase;
+    width: 202px;
+    font-size: 21px; }
+    body .body-button:hover {
+      opacity: 0.7; }
+    body .body-button a {
+      text-decoration: none;
+      color: #fff; }
+    body .body-button p {
+      margin: 10px 10px 12px 20px;
+      float: left; }
+  body .arrow-right {
+    float: left;
+    margin: 19px 10px 12px -4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 8.7px;
+    border-color: transparent transparent transparent #fff; }
+  body .title-ps {
+    float: left; }
+    body .title-ps h3 {
+      margin-left: 10.4%; }
+  body .shadow {
+    margin-top: 106px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
+  body .middle-box-ps {
+    float: left;
+    margin-top: -22px;
+    margin-bottom: 10px; }
+    body .middle-box-ps h4 {
+      margin-top: 30px;
+      margin-left: 34%; }
+  body .left-box-ps {
+    float: left;
+    height: 188px;
+    width: 23.5%;
+    overflow: hidden; }
+  body .right-box-ps {
+    float: left;
+    width: 62%;
+    margin-top: -12px;
+    margin-left: 62px;
+    font-family: 'Open Sans', sans-serif; }
+    body .right-box-ps p {
+      font-family: 'Open Sans', sans-serif; }
+    body .right-box-ps ul {
+      list-style-type: none;
+      padding-left: 0; }
+    body .right-box-ps .pdf-dl {
+      float: right;
+      margin-right: 10px; }
+
+/*end of body*/
+footer .footer-picture {
+  width: 100%;
+  background: url(../images/footer-picture.png);
+  height: 196px;
+  margin: 0 auto;
+  width: 100%;
+  float: left;
+  padding-top: 7px; }
+
+footer .colon-1-3 {
+  float: left;
+  font-family: 'Noto Sans', sans-serif;
+  color: #fff; }
+  footer .colon-1-3 h5 {
+    text-transform: uppercase;
+    margin-bottom: -6px;
+    font-size: 20px; }
+  footer .colon-1-3 a {
+    text-decoration: none;
+    color: #fff; }
+
+footer .colon-1-3a {
+  float: left;
+  margin-top: 10%;
+  color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+  margin-left: 124px;
+  margin-top: 36px; }
+
+footer .col-p p {
+  margin: -5px 0px; }
+  footer .col-p p h5 {
+    margin-bottom: 2px; }
+
+footer .col-left-top {
+  float: left;
+  margin-bottom: 10px;
+  float: left; }
+
+footer .col-left-bottom {
+  margin-top: 15px; }
+  footer .col-left-bottom p {
+    margin-bottom: 3px; }
+
+footer .col-ul ul {
+  padding-left: 0;
+  padding-top: 28px; }
+  footer .col-ul ul li {
+    list-style-type: none;
+    margin-bottom: -1px;
+    margin-left: 230px; }
+
+footer .col-ftg p {
+  float: left; }
+
+footer .col-ftg ul {
+  float: left;
+  padding-left: 15px; }
+  footer .col-ftg ul li {
+    display: inline;
+    list-style-type: none;
+    float: left;
+    margin-left: 1px; }
+
+footer .p-inline {
+  margin-top: 30px;
+  display: inline; }
+
+/*# sourceMappingURL=main.css.map */
